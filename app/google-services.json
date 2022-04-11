@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515494233485",
+    "firebase_url": "https://tellme-28294-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tellme-28294",
+    "storage_bucket": "tellme-28294.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515494233485:android:4085079501d0b8eea629c4",
+        "android_client_info": {
+          "package_name": "com.dogukan.tellme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515494233485-fq3ojrve5q4kgifrps13k69fu15fn0fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH8NGMQAzRGxEEcGq0V_AW8WBzFbuone8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515494233485-fq3ojrve5q4kgifrps13k69fu15fn0fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
