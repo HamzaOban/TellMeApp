@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TellMe</string>
+    <string name="typing">yazıyor...</string>
+    <string name="online">çevrimiçi</string>
+    <string name="offline">çevrimdışı</string>
+    <string name="message_box_empty">Mesaj kutusu boş</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="status">Durum</string>
+    <string name="enter_message_tv">Mesaj giriniz</string>
+    <string name="send_btn">Gönder</string>
+    <string name="delivered">iletildi</string>
+    <string name="seen">görüldü</string>
+    <string name="message_deleted">mesaj silindi</string>
+    <string name="change_picture">Resmini değiştirmek istiyor musun?</string>
+    <string name="change_picture_title">Resmi değiştir</string>
+    <string name="password">Şifre</string>
+    <string name="register">Kayıt ol</string>
+    <string name="already_account">Zaten hesabım var</string>
+    <string name="back_register">Kayıt sayfasına geri dön</string>
+    <string name="login">Giriş yap</string>
+    <string name="chat">Sohbet</string>
+    <string name="Settings">Ayarlar</string>
+    <string name="Change_name">İsmini değiştir</string>
+    <string name="Change_status">Durumunu değiştir</string>
+    <string name="Cancel">İptal</string>
+    <string name="Save">Kaydet</string>
+    <string name="Search_hint">Ara...</string>
+    <string name="Image">Resim</string>
+</resources>

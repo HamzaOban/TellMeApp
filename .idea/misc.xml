@@ -3,26 +3,60 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.285" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/drawable/rounded_select_photo_button.xml" value="0.2665" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_chat_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_edit_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_friend_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_latest_messages.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_new_messages.xml" value="0.253125" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_re_view_send_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/fragment_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/top_bar_chat_log.xml" value="0.5686546463245492" />
+        <entry key="..\:/Users/hamza/Documents/GitHub/tellMe-Android/app/src/main/res/layout/user_row_new_message.xml" value="0.253125" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14296813964843746" />
         <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.285" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.285" />
+        <entry key="app/src/main/res/drawable/chat_from_row_background.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/chat_row_background.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/chat_to_row_background.xml" value="0.335" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.267" />
+        <entry key="app/src/main/res/drawable/layout_bg_unread_message.xml" value="0.1955" />
+        <entry key="app/src/main/res/drawable/layout_top_bar.xml" value="0.28" />
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.168" />
         <entry key="app/src/main/res/drawable/rounded_edittext_register_login.xml" value="0.168" />
         <entry key="app/src/main/res/drawable/rounded_select_photo_button.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable/search_view_background.xml" value="0.1745" />
         <entry key="app/src/main/res/layout/activity_chat_log.xml" value="0.24270833333333333" />
         <entry key="app/src/main/res/layout/activity_latest_messages.xml" value="0.271875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_new_messages.xml" value="0.21354166666666666" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33177083333333335" />
-        <entry key="app/src/main/res/layout/chat_from_row.xml" value="0.75" />
-        <entry key="app/src/main/res/layout/chat_to_row.xml" value="0.67" />
-        <entry key="app/src/main/res/layout/latest_message_row.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/chat_from_row.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/chat_to_row.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_chat_log.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_edit_settings.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/fragment_friend_detail.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/layout/fragment_latest_messages.xml" value="0.3556547619047619" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_new_messages.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_re_view_send_image.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/latest_message_row.xml" value="0.5788590604026845" />
+        <entry key="app/src/main/res/layout/notification.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/top_bar_chat_log.xml" value="0.67" />
         <entry key="app/src/main/res/layout/user_row_new_message.xml" value="0.5" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/menu/top_chat_log_menu.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/menu/top_nav_menu.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/top_new_messages.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1955" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.168" />
       </map>
     </option>
@@ -32,5 +66,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

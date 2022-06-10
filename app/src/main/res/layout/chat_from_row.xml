@@ -3,30 +3,145 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/chat_from_TV"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_Text_from"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/rounded_edittext_register_login"
-        android:maxWidth="240dp"
-        android:padding="16dp"
-        android:text="this is my message"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/Time_stamp_chat_from_row_TV"
+        <TextView
+            android:id="@+id/chat_from_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/chat_from_row_background"
+            android:fadeScrollbars="false"
+
+            android:hapticFeedbackEnabled="false"
+            android:includeFontPadding="true"
+
+            android:maxWidth="240dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="10dp"
+            android:rotationX="0"
+            android:rotationY="0"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:text="this is my message"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/deleteFromImageViewMessage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/trash"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/chat_from_TV"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Time_stamp_chat_from_row_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="3dp"
+            android:text="23.21"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chat_from_TV"
+            app:layout_constraintStart_toStartOf="@+id/chat_from_TV" />
+
+        <TextView
+            android:id="@+id/seenMessage_from_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="seen"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chat_from_TV">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_Image_from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="2dp"
-        android:text="23.21"
-        android:textSize="9sp"
-        app:layout_constraintBottom_toBottomOf="@+id/chat_from_TV"
-        app:layout_constraintStart_toStartOf="@+id/chat_from_TV" />
+        android:visibility="gone"
+        android:layout_marginEnd="150dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <ImageView
+                    android:id="@+id/image_from_imageView"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/images">
+
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/deleteFromImageViewImage"
+                android:visibility="gone"
+                android:layout_width="30dp"
+                android:src="@drawable/trash"
+                android:layout_gravity="bottom|start"
+                android:layout_height="30dp">
+
+            </ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Time_stamp_chat_from_row_image_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+
+            android:text="23.21"
+            android:layout_gravity="start|bottom"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/chat_to_row_TV"
+            app:layout_constraintEnd_toEndOf="@+id/chat_to_row_TV" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

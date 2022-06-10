@@ -7,12 +7,12 @@
         android:id="@+id/chat"
         android:enabled="true"
         android:icon="@drawable/chat"
-        android:title="Chat"
+        android:title="@string/chat"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/settings"
         android:enabled="true"
         android:icon="@drawable/management"
-        android:title="Settings"
+        android:title="@string/Settings"
         app:showAsAction="ifRoom"/>
 </menu>

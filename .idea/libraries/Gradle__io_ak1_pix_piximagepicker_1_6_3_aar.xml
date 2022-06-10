@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ak1.pix:piximagepicker:1.6.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7ed7470b139d354a2903049b25b900e3/transformed/piximagepicker-1.6.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7ed7470b139d354a2903049b25b900e3/transformed/piximagepicker-1.6.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7ed7470b139d354a2903049b25b900e3/transformed/piximagepicker-1.6.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ak1.pix/piximagepicker/1.6.3/3804eb3c382189cf32f4681ea139480e69417fba/piximagepicker-1.6.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ak1.pix/piximagepicker/1.6.3/f8d06c9744711f050b02c7bfcb0f05e15ca482bf/piximagepicker-1.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
