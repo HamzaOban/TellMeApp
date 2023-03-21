@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/messages_graph"
-    app:startDestination="@id/registerFragment">
+    app:startDestination="@id/phoneLoginFragment">
     <fragment
         android:id="@+id/registerFragment"
         android:name="com.dogukan.tellme.view.RegisterFragment"
@@ -223,5 +223,35 @@
             android:name="token"
             app:argType="string"
             android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneLoginFragment"
+        android:name="com.dogukan.tellme.view.PhoneLoginFragment"
+        android:label="fragment_phone_login"
+        tools:layout="@layout/fragment_phone_login" >
+        <action
+            android:id="@+id/action_phoneLoginFragment_to_phoneLogin2Fragment"
+            app:destination="@id/phoneLogin2Fragment" />
+        <action
+            android:id="@+id/action_phoneLoginFragment_to_latestMessagesFragment2"
+            app:destination="@id/latestMessagesFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneLogin2Fragment"
+        android:name="com.dogukan.tellme.view.PhoneLogin2Fragment"
+        android:label="fragment_phone_login2"
+        tools:layout="@layout/fragment_phone_login2" >
+        <action
+            android:id="@+id/action_phoneLogin2Fragment_to_phoneLogin3Fragment"
+            app:destination="@id/phoneLogin3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneLogin3Fragment"
+        android:name="com.dogukan.tellme.view.PhoneLogin3Fragment"
+        android:label="fragment_phone_login3"
+        tools:layout="@layout/fragment_phone_login3" >
+        <action
+            android:id="@+id/action_phoneLogin3Fragment_to_latestMessagesFragment2"
+            app:destination="@id/latestMessagesFragment2" />
     </fragment>
 </navigation>

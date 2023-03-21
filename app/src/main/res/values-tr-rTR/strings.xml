@@ -27,4 +27,9 @@
     <string name="Save">Kaydet</string>
     <string name="Search_hint">Ara...</string>
     <string name="Image">Resim</string>
+    <string name="phone_sign_in">TELEFON NUMARASI ILE GIRIS YAP</string>
+    <string name="our_terms">Oturum aç\'a dokunarak, Şartlarımızı kabul ediyorsun. Verilerini nasıl işlediğimizi öğrenmek için Gizlilik Politikası ve Çerez Politikası\'nı inceleyebilirsiniz.</string>
+    <string name="number_tv">Numaram</string>
+    <string name="number_info_tv">\"Devam\"a dokunduğunda, TellMe sana doğrulama kodunu içeren SMS gönderecek. Mesaj ve veriler ücrete tabi olabilir. Doğrulanmış bir telefon numarasıyla oturum açabilirsiniz. Numaranın değişmesi durumunda ne olacağını öğren.</string>
+    <string name="continue_btn">Devam et</string>
 </resources>

@@ -29,6 +29,7 @@ class UserRepository(UserRepositoryI: UserRepositoryI) {
                         userList.add(user)
                         userRepositoryI?.showListOfUser(userList)
 
+
                     }
                 }
 
@@ -38,8 +39,4 @@ class UserRepository(UserRepositoryI: UserRepositoryI) {
             }
         })
     }
-
-
-
-
 }

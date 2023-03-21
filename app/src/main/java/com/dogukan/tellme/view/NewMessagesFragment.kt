@@ -76,7 +76,6 @@ class NewMessagesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.recyclerView4.layoutManager = LinearLayoutManager(context)
-
         viewModel.getUser()
         viewModel.getAllUsers()
         adapter = NewMessagesRVAdapter(newMessagesList)

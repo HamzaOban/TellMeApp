@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context=".view.PhoneLoginFragment">
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center|right"
+        android:background="@drawable/logo"
+        android:paddingLeft="65dp"
+        android:paddingRight="-30dp"
+        app:layout_constraintBottom_toTopOf="@+id/phone_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/helveticaboldcondensed"
+        android:gravity="center"
+        android:text="@string/our_terms"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/phone_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/phone_button"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="@font/helveticaboldcondensed"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/phone_sign_in"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_baseline_call_24"
+        app:iconSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

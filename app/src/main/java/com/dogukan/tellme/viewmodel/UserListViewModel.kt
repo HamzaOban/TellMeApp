@@ -49,11 +49,13 @@ class UserListViewModel(application: Application) : BaseViewModel(application), 
             userLoading.value = false
         }
     }
+
     override fun showListOfUser(userList: ArrayList<Users>) {
         users.value = userList
         informationMessage.value = userList.size==0
         userLoading.value = false
     }
+
     private fun saveSQLite(userList : List<Users>) {
         launch {
             val dao = UsersDatabase(getApplication()).usersDao()

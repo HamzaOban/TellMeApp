@@ -26,5 +26,13 @@
     <string name="Cancel">Cancel</string>
     <string name="Save">Save</string>
     <string name="Image">Image</string>
+    <string name="phone_sign_in">"SIGN IN BY PHONE"</string>
+    <string name="our_terms">By tapping Sign in, you agree to our Terms. You can review the Privacy Policy and Cookie Policy to learn how we process your data.</string>
+    <string name="number_info_tv">Tap Continue and TellMe will send you an SMS with the verification code. Messages and data may incur charges. You can sign in with a verified phone number. Find out what happens if the number changes.</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_tv">My Number</string>
 
 </resources>

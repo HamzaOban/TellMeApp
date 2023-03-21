@@ -16,7 +16,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFE6D2"
             android:orientation="vertical"
             android:weightSum="3">
 
@@ -25,7 +24,7 @@
                 android:layout_height="73dp"
                 android:layout_margin="10dp"
                 android:layout_weight=".8"
-                android:background="#FFE6D2"
+                android:background="@color/white"
                 android:orientation="vertical"
                 android:padding="10dp"
                 android:weightSum="2">
@@ -44,9 +43,9 @@
 
                     <ProgressBar
                         android:id="@+id/settings_progress_bar"
-                        android:theme="@style/ProgressBarTheme"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
+                        android:theme="@style/ProgressBarTheme"
                         app:layout_anchor="@+id/imgProfile"
                         app:layout_anchorGravity="center">
 
@@ -74,10 +73,10 @@
                 app:cardBackgroundColor="#FFE6D2">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/userNameCard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/userNameCard"
-                    app:cardBackgroundColor="#FBDCC2"
+                    app:cardBackgroundColor="@color/eerie_black"
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
                     app:elevation="0dp">
@@ -94,7 +93,7 @@
                             android:layout_marginLeft="10dp"
                             android:padding="2dp"
                             android:text="@string/username"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="normal" />
 
@@ -106,7 +105,7 @@
                             android:layout_marginLeft="10dp"
                             android:padding="2dp"
                             android:text="@{userModel.username , default=Nothing}"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -116,7 +115,7 @@
                     android:id="@+id/statusCard"
                     android:layout_width="match_parent"
                     android:layout_height="101dp"
-                    app:cardBackgroundColor="#FBDCC2"
+                    app:cardBackgroundColor="@color/eerie_black"
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
                     app:elevation="0dp">
@@ -133,7 +132,7 @@
                             android:layout_marginLeft="10dp"
                             android:padding="2dp"
                             android:text="@string/status"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="normal" />
 
@@ -149,7 +148,7 @@
                             android:text="@{userModel.status , default=Welcome}"
 
                             android:textAlignment="textStart"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold"
                             app:autoSizeMaxTextSize="20sp"
@@ -159,10 +158,10 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/emailCard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardBackgroundColor="#FBDCC2"
-                    android:id="@+id/emailCard"
+                    app:cardBackgroundColor="@color/eerie_black"
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
                     app:elevation="0dp">
@@ -178,8 +177,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:padding="2dp"
-                            android:text="Email"
-                            android:textColor="@color/black"
+                            android:text="Phone number"
+                            android:textColor="@color/white"
                             android:textSize="15sp"
                             android:textStyle="normal" />
 
@@ -191,7 +190,7 @@
                             android:padding="2dp"
                             android:text="@{userModel.email , default=Email}"
                             android:textAlignment="textStart"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -201,7 +200,7 @@
                     android:id="@+id/deleteCard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardBackgroundColor="#FBDCC2"
+                    app:cardBackgroundColor="@color/eerie_black"
 
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
@@ -218,7 +217,7 @@
                             android:layout_height="wrap_content"
                             android:padding="8dp"
                             android:text="Delete Account."
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
